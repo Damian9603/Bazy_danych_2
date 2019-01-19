@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="buttonSetZamowienie" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="producentLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="producentLabel2" min="-2" max="-2" attributes="0"/>
+                                  <Component id="producentLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cenaTextField" max="32767" attributes="0"/>
+                                  <Component id="filtrKolor" pref="112" max="32767" attributes="0"/>
+                                  <Component id="filtrRodzaj" alignment="0" pref="112" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="szukajButton" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="9" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="rozmiarLabel" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="filtrRozmiar" min="-2" pref="112" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="producentLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="filtrProducent" min="-2" pref="112" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="buttonWrocDoKonta" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="rozmiarLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="filtrRozmiar" min="-2" pref="20" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="filtrProducent" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="producentLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="filtrKolor" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="producentLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="filtrRodzaj" alignment="3" min="-2" pref="20" max="-2" attributes="0"/>
+                  <Component id="producentLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cenaTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="producentLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="szukajButton" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="buttonSetZamowienie" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="buttonWrocDoKonta" min="-2" pref="56" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane2" pref="529" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="rozmiarLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wybierz rozmiar:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="filtrRozmiar">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] {  &quot;36&quot;, &quot;37&quot;, &quot;38&quot;, &quot;39&quot;, &quot;40&quot;, &quot;41&quot;, &quot;42&quot;, &quot;43&quot;, &quot;44&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="filtrRozmiarActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="filtrProducent">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] {&#xa;    &quot;Dowolny&quot;,&#xa;    &quot;adidas&quot;,&#xa;    &quot;Nike&quot;,&#xa;    &quot;UnderArmour&quot;,&#xa;    &quot;4f&quot;,&#xa;    &quot;Reebok&quot;,&#xa;    &quot;Asics&quot;,&#xa;    &quot;Puma&quot;,&#xa;    &quot;Salomon&quot;,&#xa;    &quot;Adler&quot;,&#xa;    &quot;Spalding&quot;,&#xa;    &quot;Outhorn&quot;,&#xa;    &quot;Odlo&quot;,&#xa;    &quot;NewBalance&quot;,&#xa;    &quot;Aqua-Speed&quot;,&#xa;    &quot;Mizuno&quot;,&#xa;    &quot;Mikasa&quot;,&#xa;    &quot;Molten&quot;,&#xa;    &quot;Reusch&quot;,&#xa;    &quot;Wilson&quot;,&#xa;    &quot;Speedo&quot;,&#xa;    &quot;Allright&quot;,&#xa;    &quot;Colo&quot;,&#xa;    &quot;Donic&quot;,&#xa;    &quot;TalbotTorro&quot;,&#xa;    &quot;DragonSports&quot;,&#xa;    &quot;GreenHill&quot;,&#xa;    &quot;Fox&quot;,&#xa;    &quot;Joma&quot;,&#xa;    &quot;Masita&quot;,&#xa;    &quot;SportMasters&quot;,&#xa;    &quot;Realstick&quot;,&#xa;    &quot;Select&quot;,&#xa;    &quot;Spokey&quot;,&#xa;    &quot;Netex&quot;,&#xa;    &quot;Rucanor&quot;,&#xa;    &quot;Schildkrot&quot;,&#xa;    &quot;Meteor&quot;,&#xa;    &quot;Reda&quot;,&#xa;    &quot;PANTHERA&quot;,&#xa;    &quot;KingCamp&quot;,&#xa;    &quot;Isostar&quot;,&#xa;    &quot;Olimp&quot;,&#xa;    &quot;Stiga&quot;,&#xa;    &quot;Shield&quot;,&#xa;    &quot;Pono&quot;,&#xa;    &quot;Point&quot;,&#xa;    &quot;Givova&quot;,&#xa;    &quot;Legea&quot;,&#xa;    &quot;Uvex&quot;,&#xa;    &quot;Gabel&quot;})" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="filtrProducentActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="producentLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wyberz producenta:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="filtrKolor">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;Dowolny&quot;, &quot;bialy&quot;, &quot;niebieski&quot;, &quot;czerwony&quot;, &quot;czarny&quot;, &quot;zielony&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="producentLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wyberz kolor:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cenaTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="producentLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cena maksymalna:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="filtrRodzaj">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(new String[] { &quot;sportowe&quot;, &quot;zimowe&quot;, &quot;japonki&quot;, &quot;wizytowe&quot;, &quot;glany&quot; })" type="code"/>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="producentLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wybierz rodzaj:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonSetZamowienie">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Z&#x142;&#xf3;&#x17c; zam&#xf3;wienie"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonSetZamowienieActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonWrocDoKonta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wr&#xf3;&#x107; do konta"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonWrocDoKontaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="szukajButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Szukaj"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="szukajButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tabelaWyszukiwania">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="5" rowCount="0">
+                <Column editable="false" title="Producent" type="java.lang.String"/>
+                <Column editable="false" title="Model" type="java.lang.String"/>
+                <Column editable="false" title="Cena" type="java.lang.String"/>
+                <Column editable="false" title="Rozmiar" type="java.lang.String"/>
+                <Column editable="false" title="Kolor" type="java.lang.String"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
