@@ -1,1 +1,1 @@
-Projekt aplikacji do bazy danych dla sklepu z butami
+Implementation of shoe shop application in Java. I were responsible for programing part and connection with database. Thanks to this application i learned about connection with Oracle database and windowed Java application.
